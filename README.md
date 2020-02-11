@@ -1,6 +1,13 @@
 # CS410X
 Updates on CS410X project
 
+## Feb. 10
+### _Introduction to TensorFlow_ by deeplearning.ai on _Coursera_
+* Watched lesson videos of Week 3
+* Completed coding assignment of Week 3 in Python
+* Passed Week 3 quiz
+* Covered convolutional layer, pooling and applying image filters
+
 ## Prior to Feb. 8
 ### _Machine Learning_ by Stanford University on _Coursera_
 * Watched lesson videos of Week 1-4
