@@ -7,7 +7,7 @@ Updates on CS410X project
 * Completed coding assignment of Week 4 in Python
 * Passed Week 4 quiz
 * Covered TensorFlow's Image Generator module and adding automatic validation
-* Finished the entire course and earned the certificate: https://www.coursera.org/account/accomplishments/certificate/GAJETNV4UZGJ
+* Finished the entire course and earned the certificate: https://coursera.org/share/a8c73293650d30e144a8ad0c261e6a28
 
 ## Feb. 10
 ### _Introduction to TensorFlow_ by deeplearning.ai on _Coursera_
