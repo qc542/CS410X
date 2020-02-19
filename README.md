@@ -1,6 +1,12 @@
 # CS410X
 Updates on CS410X project
 
+## Feb. 18
+### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
+* Watched lesson videos of Week 2
+* Passed Week 2 quiz
+* Covered training tokenizer with IMDB dataset, building classifier, loss function and subword encoder
+
 ## Feb. 17
 ### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
 * Watched lesson videos of Week 1
