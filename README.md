@@ -1,6 +1,15 @@
 # CS410X
 Updates on CS410X project
 
+## Feb. 23
+### nlp.py
+* Implemented a rough draft of the NLP model
+* Created model by Keras's Tokenizer class
+* Trained model with a short list of manually-written tasks and labels
+* Tasks are divided into urgent and non-urgent ones, labeled 1 and 0 respectively
+* Achieved 75% accuracy on training data after 10 epochs
+* Testing data to be added to further assess model accuracy
+
 ## Feb. 18
 ### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
 * Watched lesson videos of Week 2
