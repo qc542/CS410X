@@ -1,6 +1,11 @@
 # CS410X
 Updates on CS410X project
 
+## Feb. 26
+### YouTube tutorials
+#### [Tensorflow 2.0 Tutorial - What is an Embedding Layer? Text Classification P2](https://youtu.be/qpb_39IjZA0)
+* Covered the components of an Embedding layer, the average layer and the Dense layers
+
 ## Feb. 23
 ### nlp.py
 * Implemented a rough draft of the NLP model
