@@ -1,6 +1,12 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 4
+### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
+* Watched lesson videos of Week 3
+* Passed Week 3 quiz
+* Covered long short term memory (LSTM) and the issue of overfitting in NLP
+
 ## Feb. 26
 ### YouTube tutorials
 #### [Tensorflow 2.0 Tutorial - What is an Embedding Layer? Text Classification P2](https://youtu.be/qpb_39IjZA0)
