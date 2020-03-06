@@ -1,6 +1,13 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 6
+### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
+* Watched lesson videos of Week 4
+* Passed Week 4 quiz
+* Covered training model with an LSTM layer to predict next word in a text
+* Finished the entire course and earned the certificate: https://www.coursera.org/account/accomplishments/certificate/UFNJWZ25ZCX5
+
 ## Mar. 4
 ### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
 * Watched lesson videos of Week 3
