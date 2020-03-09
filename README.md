@@ -1,6 +1,11 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 8
+### Web tutorials
+#### [A Gentle Introduction to Scikit-Learn: A Python Machine Learning Library](ttps://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/)
+* Covered the origin of the scikit-learn library, its primary features, some sample code and links to resources for further learning
+
 ## Mar. 6
 ### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
 * Watched lesson videos of Week 4
