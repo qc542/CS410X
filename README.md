@@ -6,6 +6,11 @@ Updates on CS410X project
 #### [A Gentle Introduction to Scikit-Learn: A Python Machine Learning Library](https://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/)
 * Covered the origin of the scikit-learn library, its primary features, some sample code and links to resources for further learning
 
+#### [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+* Official tutorial written by scikit-learn
+* Covered loading a dataset, learning and predicting, updating paramaters and multiclass/multilabel fitting
+* Wrote a Python file with elementary scikit-learn functions by following the tutorial--uploaded to repo as sk_learn_tutorial.py
+
 ## Mar. 6
 ### _Natural Language Processing in TensorFlow_ by deeplearning.ai on _Coursera_
 * Watched lesson videos of Week 4
