@@ -14,7 +14,7 @@ Updates on CS410X project
 #### [Scikit-learn Official User Guide: Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)
 * Covered the differences between neighbors-based classification and neighbors-based regression
 * Covered the pros and cons of both k-neighbors classification and radius-based neighbors classification
-* Covered factors that influence the time complexity of nearest neighbor algorithms, including a comparison of how brute force, ball tree and KD tree each performs with regards to each factor
+* Covered factors that influence the time complexity of nearest neighbor algorithms, including a comparison of how brute force, ball tree and KD tree each perform with regards to each factor
 * Explained that Neighborhood Component Analysis (NCA) is ideal for handling multi-class problems without increasing model size or introducing extra parameters
 * Covered reducing dimensionality of datasets with NCA
 
