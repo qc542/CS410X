@@ -1,6 +1,12 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 17
+### Meeting via Zoom
+* Made a forty-minute conference call with Prof. Musco via Zoom
+* Discussed next steps to use pre-trained word vectors to identify closely-related words
+* Dicussed approaches to write functions to compare word vectors and identify similar task descriptions
+
 ## Mar. 8
 ### Web tutorials
 #### [A Gentle Introduction to Scikit-Learn: A Python Machine Learning Library](https://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/)
