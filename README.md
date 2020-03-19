@@ -1,6 +1,18 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 19
+### Web tutorials
+#### [_Introduction to Word Vectors_ by Jayesh Bapu Ahire](https://medium.com/@jayeshbahire/introduction-to-word-vectors-ea1d4e4b84bf)
+* NLP models rely on word vectors to predict the contextual probabilities of a word given as input
+* Word vectors are of enormous dimensions, and the vectors of closely-related words point toward each other
+* Word vectors are trained by marking a word as related to the others within a window in the same sentence
+* Each node in the hidden layer of the neural network optimizes the parameter to minimize error; the parameters of the output layer make up a word vector
+
+#### [_A Beginner’s Git and GitHub Tutorial_ by Matthew Setter](https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
+* Covered elementary Git operations such as cloning repo from GitHub, commiting, pulling and branching
+* Practiced by cloning the current repo into local directory, making changes and pushing changes onto GitHub
+
 ## Mar. 17
 ### Meeting via Zoom
 * Made a forty-minute conference call with Prof. Musco via Zoom
