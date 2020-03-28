@@ -1,6 +1,14 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 28
+### Web tutorials
+#### [_A Beginner's Guide to Word2Vec and Neural Word Embeddings_ by Chris Nicholson](https://pathmind.com/wiki/word2vec)
+* The Word2Vec nerual net outputs a collection of words with a vector attached to each
+* Similarity between the vectors is measured by cosine distance: cos(0) = 1 represents total similarity, whereas cos(1) = 0 represents no similarity 
+* To train words against others located closely in the text, skip-gram works more accurately on large datasets than Continuous Bag of Words does
+* One shortcoming of Word2Vec is its inability to address the different definitions of the same word; newer models such as ELMo and BERT do better in this aspect
+
 ## Mar. 19
 ### Web tutorials
 #### [_Introduction to Word Vectors_ by Jayesh Bapu Ahire](https://medium.com/@jayeshbahire/introduction-to-word-vectors-ea1d4e4b84bf)
