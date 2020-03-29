@@ -2,6 +2,11 @@
 Updates on CS410X project
 
 ## Mar. 29
+### word\_vector.py
+* Implemented sorted\_by\_similarity function, which returns the given target list of words ranked from most to least similar to the given base word
+* Contains Python 3's built-in sorted() function, which takes a lambda function as the key for sorting
+* Return variable is a list of tuples in the form of the output word's cosine similarity value to the based word, followed by the output word itself
+
 ### Web tutorials
 #### [_Python — List Sorting, Keys & Lambdas_ by John Grant](https://medium.com/@johngrant/python-list-sorting-keys-lambdas-1903b2a4c949)
 * Introduces the two sorting functions built into Python 3
