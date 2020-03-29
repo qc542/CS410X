@@ -1,13 +1,36 @@
 # CS410X
 Updates on CS410X project
 
+## Mar. 29
+### Web tutorials
+#### [_Python — List Sorting, Keys & Lambdas_ by John Grant](https://medium.com/@johngrant/python-list-sorting-keys-lambdas-1903b2a4c949)
+* Introduces the two sorting functions built into Python 3
+* sort() modifies the original list in-place, whereas sorted() takes an iterable and returns a newly-created list upon sorting
+* The paramter "key" is declared as a function that takes a single argument and returns a key for sorting
+* The key can be declared as lambda, an anonymous function, followed by a parameter. The return variable is entered following a colon
+* Enabling the "reverse" option makes the list sorted in descending order. The option is disabled by default.
+
 ## Mar. 28
+### Word\_vector.py 
+* Wrote a Python script to evaluate cosine similarity between two vectors
+* Defined a Word class to import word vectors
+* Defined three functions: vector\_len(v), dot\_product(v1, v2) and cosine\_similarity(v1, v2)
+* vector\_len(v) calculates the Euclidean norm of a word vector
+  * The Euclidean norm equals the square root of the sum of each component of the vector squared
+* dot\_product(v1, v2) returns the sum of each component in v1 multiplied by the corresponding component in v2 at the same index
+* cosine\_similarity(v1, v2) returns the cosine of the angle between v1 and v2
+  * The cosine of the angle equals the dot product of v1 and v2 divided by the product of their lengths (as in Euclidean norm) 
+
+
 ### Web tutorials
 #### [_A Beginner's Guide to Word2Vec and Neural Word Embeddings_ by Chris Nicholson](https://pathmind.com/wiki/word2vec)
 * The Word2Vec nerual net outputs a collection of words with a vector attached to each
 * Similarity between the vectors is measured by cosine distance: cos(0) = 1 represents total similarity, whereas cos(1) = 0 represents no similarity 
 * To train words against others located closely in the text, skip-gram works more accurately on large datasets than Continuous Bag of Words does
 * One shortcoming of Word2Vec is its inability to address the different definitions of the same word; newer models such as ELMo and BERT do better in this aspect
+
+#### [_Playing with word vectors_ by Martin Konicek](https://medium.com/swlh/playing-with-word-vectors-308ab2faa519)
+* Introduces the methodology of measuring word similarity by calculating cosine similarity 
 
 ## Mar. 19
 ### Web tutorials
