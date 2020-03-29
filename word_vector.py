@@ -37,7 +37,13 @@ def cosine_similarity(v1: Vector, v2: Vector) -> float:
 
     return dot_product(v1,v2) / (vector_len(v1) * vector(v2))
 
-def sorted_by_similarity(words: List[Word], base_vector: Vector) -> List[Tuple[float, Word]]:
+def sorted_by_similarity(words: List[Word], base_vector: Vector) \
+-> List[tuple]:
+    """ List[Word] refers to the Word class defined above, which contains the word vector's components represented as a list of floating point numbers,
+    along with the word itself.
+    base_vector is simply a given word represented as floating point numbers, which the function compares each target word against to yield a ranking
+    of similarity. """
+
     # Returns a list of tuples in the form of cosine similarity followed by the output word itself
     # List is sorted by cosine similarity, from most to least similar
     tuple_list = [(cosine_similarity(base_vector, w.vector), w) for w in words]
