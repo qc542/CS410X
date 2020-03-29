@@ -25,10 +25,13 @@ def dot_product(v1: Vector, v2: Vector) -> float:
 
     # The dot product equals the sum of each component in v1 multiplied
     # by the corresponding component in v2 at the same index
+
+    # Function returns a floating point number
     return sum([x*y for (x,y) in zip(v1,v2)]) 
 
 def cosine_similarity(v1: Vector, v2: Vector) -> float:
     # The cosine of the angle between v1 and v2 equals their dot product
     # divided by the product of their lengths (as in Euclidean norm)
 
+    # Function returns a floating point number
     return dot_product(v1,v2) / (vector_len(v1) * vector(v2))
