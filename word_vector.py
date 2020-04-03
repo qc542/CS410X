@@ -13,7 +13,7 @@ class Word:
 
 def load_vector(filename: str) -> dict:
     text_stream = io.open(filename, 'r', encoding = 'utf-8', errors = 'ignore'\
-            errors = 'ignore', newline = '\n')
+            , newline = '\n')
     n, d = text_stream.readline().split()
 
     """ The first line in the vector file says the total number of words
