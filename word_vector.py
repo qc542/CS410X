@@ -62,14 +62,12 @@ def lookup_vector(w: str, vector_dict: dict) -> Vector:
     dictionary and returns the correspond Vector object."""
 
     if w in vector_dict: return vector_dict[w]
-    """ vector_dict[w] is a list of floating numbers, which is 
-    previously defined as equivalent to a Vector object."""
-    
     else:
         print("The word " + w + " could not be found in the \
                 given dictionary.")
         return None
-
+    """ vector_dict[w] is a list of floating numbers, which is 
+    previously defined as equivalent to a Vector object."""
 
 def construct_word(w: str, vector_dict: dict) -> Word:
     """ Given a word entry and a previously-generated dictionary as 
@@ -78,14 +76,13 @@ def construct_word(w: str, vector_dict: dict) -> Word:
     found."""
 
     vec = lookup_vector(w, vector_dict)
-    if !vec:
+    if not vec:
         word_obj = Word(w, vec)
-    """ If lookup_vector does not return None, instantiate a Word 
-    object with the given word and the Vector object returned."""
-
     else: return None
-    """ If lookup_vector returned None, an error message would 
-    have been printed, so there is no need to print again here."""
+    """ If lookup_vector does not return None, instantiate a Word 
+    object with the given word and the Vector object returned. If 
+    lookup_vector returned None, an error message would have been 
+    printed, so there is no need to print again here."""
 
 
 def vector_len(v: Vector) -> float:
