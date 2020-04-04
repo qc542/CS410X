@@ -1,4 +1,6 @@
 from typing import List
+import io, sys
+sys.path.append('/Users/qilei/Downloads')
 
 Vector = List[float]
 # A type alias in Python 3; makes the interpreter treat Vector and List[float] as interchangeable equivalents
@@ -83,6 +85,30 @@ def construct_word(w: str, vector_dict: dict) -> Word:
     object with the given word and the Vector object returned. If 
     lookup_vector returned None, an error message would have been 
     printed, so there is no need to print again here."""
+
+
+def construct_word_list(w_list: List[str], vector_dict: dict) -> List[Word]
+    """ Given a list of strings and a previously-generated vector 
+    dictionary, the function calls the construct_word function to 
+    instantiate a Word object with each string and returns the list 
+    of Words generated."""
+
+    word_objs = [] 
+    for w in w_list:
+        if w.find(' ') != -1:
+            print("Whitespace found in the word \"" + w + "\". \
+                    Only single words are accepted. Skipping \
+                    the current word.\n")
+        else:
+            word_obj = construct_word(w, vector_dict)
+            if not word_obj: word_objs.append(word_obj)
+    """ Double-checks whether the input is a single word. If yes, call 
+    the construct_word function to instantiate a Word object. If 
+    construct_word returns anything other than \"None\", the Word 
+    object has been instantiated. The Word is then appended to a 
+    list."""
+ 
+    return word_objs
 
 
 def vector_len(v: Vector) -> float:
