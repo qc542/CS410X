@@ -1,6 +1,19 @@
 # CS410X
 Updates on CS410X project
 
+## Apr. 4
+### word\_vector.py
+* Implemented load\_vector function, which calls Python's IO function to load a local vector file in a text stream and assemble all word entries and vector components into a Python dictionary object
+* Implemented lookup\_vector function, which looks up a given string in the previously-generated dictionary and returns the corresponding Vector object
+* Implemented construct\_word function, which calls lookup\_vector to obtain the Vector object of the given string and then calls the constructor of the Word class to create an instance
+* Implemented construct\_word\_list function, which takes a list of strings and verifies whether each string is a single word. Once the string is verified, the function passes it to construct\_word and appends the Word object returned to a list
+* Implemented show\_similarity\_ranking function, which passes a list of Word objects and a base Vector object to sorted\_by\_similarity to obtain a sorted list of tuples. The function then prints the outcome in an easy-to-read format
+* Fixed several runtime issues found when running word\_vector\_test.py for testing
+
+### word\_vector\_test.py
+* Implemented a few test cases for word\_vector.py
+* Calls the show\_similarity\_ranking function in word\_vector.py to print the given list of words, ranked from most to least similar to the base word
+
 ## Mar. 29
 ### word\_vector.py
 * Implemented sorted\_by\_similarity function, which returns the given target list of words ranked from most to least similar to the given base word
@@ -16,7 +29,7 @@ Updates on CS410X project
 * Enabling the "reverse" option makes the list sorted in descending order. The option is disabled by default.
 
 ## Mar. 28
-### Word\_vector.py 
+### word\_vector.py 
 * Wrote a Python script to evaluate cosine similarity between two vectors
 * Defined a Word class to import word vectors
 * Defined three functions: vector\_len(v), dot\_product(v1, v2) and cosine\_similarity(v1, v2)
