@@ -1,6 +1,5 @@
 from typing import List
-import io, sys
-sys.path.append('/Users/qilei/Downloads')
+import io
 
 Vector = List[float]
 # A type alias in Python 3; makes the interpreter treat Vector and List[float] as interchangeable equivalents
@@ -87,7 +86,7 @@ def construct_word(w: str, vector_dict: dict) -> Word:
     printed, so there is no need to print again here."""
 
 
-def construct_word_list(w_list: List[str], vector_dict: dict) -> List[Word]
+def construct_word_list(w_list: List[str], vector_dict: dict) -> List[Word]:
     """ Given a list of strings and a previously-generated vector 
     dictionary, the function calls the construct_word function to 
     instantiate a Word object with each string and returns the list 
