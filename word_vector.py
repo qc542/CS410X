@@ -9,7 +9,10 @@ Vector = List[float]
 
 class Word:
     def __init__(self, text: str, vector: Vector) -> None:
-        # Python 3 optionally allows declaring the return type by inserting "->"
+        """ Python 3 optionally allows annotating the return type by 
+        inserting "->". This is merely for the reader's identification 
+        purposes and does not forbid the function from returning 
+        objects of any other type. """
         self.text = text
         self.vector = vector
 
@@ -116,7 +119,7 @@ def construct_word_list(w_list: List[str], vector_dict: dict):
 
 
 def vector_len(v: Vector) -> float:
-    # Python 3 optionally allows declaring the parameter type by inserting
+    # Python 3 optionally allows hinting the parameter type by inserting
     # the type after a colon
 
     # The length of a vector is the square root of the sum of
@@ -136,6 +139,8 @@ def dot_product(v1: Vector, v2: Vector) -> float:
 
     # The dot product equals the sum of each component in v1 multiplied
     # by the corresponding component in v2 at the same index
+    """Python's zip function maps each floating number in v1 to the 
+    one at the same index in v2. """
     return sum([x * y for (x, y) in zip(v1, v2)])
 
 
