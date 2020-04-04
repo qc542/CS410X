@@ -155,7 +155,7 @@ def sorted_by_similarity(words: List[Word], base_vector: Vector) \
 
     # Returns a list of tuples in the form of cosine similarity followed by the output word itself
     # List is sorted by cosine similarity, from most to least similar
-    tuple_list = [(cosine_similarity(base_vector, w.vector), w) for w in words]
+    tuple_list = [(cosine_similarity(base_vector, w.vector), w.text) for w in words]
 
     """ Python 3 contains two sort functions:
     sort(), which modifies the original list in-place
@@ -167,3 +167,17 @@ def sorted_by_similarity(words: List[Word], base_vector: Vector) \
 
     return sorted(tuple_list, key=lambda t: t[0], reverse=True)
 
+
+def show_similarity_ranking(words: List[Word], base_vector: Vector) -> None:
+    """ Given a list of Word objects and a base Vector object, the function 
+    calls sorted_by_similarity to obtain a list of tuples, each of which 
+    contains one of the given words and its cosine similarity to the base 
+    Vector. The function then prints the outcome in an easy-to-read 
+    format."""
+
+    t_list = sorted_by_similarity(words, base_vector)
+    print("""Below the given words are ranked from most to least similar to 
+    the base vector:\n""")
+
+    for t in t_list:
+        print(str(t[0]) + '\t' + t[1] + '\n')
