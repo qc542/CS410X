@@ -12,5 +12,6 @@ venues = ["hospital", "pharmacy", "mall", "salon", "restaurant"]
 professions_words = construct_word_list(professions, entire_vector)
 venues_words = construct_word_list(venues, entire_vector)
 
-print(sorted_by_similarity(professions_words, lookup_vector("surgeon",
-                                                            entire_vector)))
+show_similarity_ranking(professions_words, lookup_vector("surgeon",
+                                                            entire_vector))
+show_similarity_ranking(venues_words, lookup_vector("eatery", entire_vector))
