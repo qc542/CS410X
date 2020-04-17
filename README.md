@@ -1,6 +1,13 @@
 # CS410X
 Updates on CS410X project
 
+## Apr. 17
+### Meeting via Zoom
+* Made a forty-minute conference call with Prof. Musco via Zoom
+* Reviewed latest progress and discussed next steps
+* Planning to develop algorithm that compares task descriptions to each other
+* Discussed potential approaches to derive task similarity by comparing the dot products of vectors
+
 ## Apr. 4
 ### word\_vector.py
 * Implemented load\_vector function, which calls Python's IO function to load a local vector file in a text stream and assemble all word entries and vector components into a Python dictionary object
