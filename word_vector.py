@@ -65,7 +65,7 @@ def load_vector(filename: str) -> dict:
 def lookup_vector(w: str, vector_dict: dict):
     """ Given a word entry and a previously-generated dictionary as 
     the parameters, the function looks up the entry in the 
-    dictionary and returns the correspond Vector object."""
+    dictionary and returns the corresponding Vector object."""
 
     if w in vector_dict:
         return vector_dict[w]
