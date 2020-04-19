@@ -1,6 +1,16 @@
 # CS410X
 Updates on CS410X project
 
+## Apr. 19
+### Web tutorials
+#### [_How To Use the Python Debugger_ by Lisa Tagliaferri on _DigitalOcean_](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)
+* Covers the common commands of debugging Python programs with the pdb module
+* "step" executes the current line and stops immediately afterward, like in GUI debuggers
+* "next" makes the program continue until the next line of the function returns
+* "pp" prints the value of the given expression
+* "continue" makes the program run until the next breakpoint
+* "break <filename>:<line#>" sets a breakpoint at the given line
+
 ## Apr. 17
 ### Meeting via Zoom
 * Made a forty-minute conference call with Prof. Musco via Zoom
