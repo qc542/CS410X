@@ -9,6 +9,13 @@ Updates on CS410X project
 * The command "git branch <branch\_name>" creates a new branch
 * "git checkout <branch\_name>" makes Git switch to the specified branch
 
+#### [_Git - Basic Branching and Merging_by git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* To merge two branches, check out the target branch and enter "git merge <previous\_branch>"
+* If the later commit is directly ahead, Git simply moves the pointer forward
+* If commit history diverged, Git does a three-way merge
+* Merge conflicts arise when the same part of a file is modified on both branches
+* Conflicts have to be resolved manually
+
 ## Apr. 19
 ### Web tutorials
 #### [_How To Use the Python Debugger_ by Lisa Tagliaferri on _DigitalOcean_](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)
