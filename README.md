@@ -1,6 +1,14 @@
 # CS410X
 Updates on CS410X project
 
+## Apr. 24
+### Web tutorials
+#### [_Git - Branches in a Nutshell_ by git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* Explains the fundamentals of branching operations on Git
+* Branches on Git are pointers to individual commits
+* The command "git branch <branch\_name>" creates a new branch
+* "git checkout <branch\_name>" makes Git switch to the specified branch
+
 ## Apr. 19
 ### Web tutorials
 #### [_How To Use the Python Debugger_ by Lisa Tagliaferri on _DigitalOcean_](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)
