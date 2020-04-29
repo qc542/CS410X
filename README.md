@@ -1,6 +1,14 @@
 # CS410X
 Updates on CS410X project
 
+## Apr. 29
+### Web tutorials
+#### [_Pull Request Tutorial - A Visual Guide to Pull Requests_ by Yang Su](https://yangsu.github.io/pull-request-tutorial/)
+* Pull request is a feature of GitHub that allows a user to notify others of changes pushed to a repo
+* Stakeholders can review a pull request, suggest changes and eventually merge it into the main branch
+* If there are no conflicts between the two branches, the pull request can be merged automatically by Git
+* In case where a large number of conflicts emerge because of a long standing main branch, it would be helpful to squash all commits into one, rebase, and cherry-pick the changes to merge
+
 ## Apr. 24
 ### Web tutorials
 #### [_Git - Branches in a Nutshell_ by git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
