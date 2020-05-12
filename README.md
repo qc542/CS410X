@@ -1,6 +1,13 @@
 # CS410X
 Updates on CS410X project
 
+## May 12
+### Web tutorials
+#### [_git-reset Documentation_ by git-scm.com](https://git-scm.com/docs/git-reset)
+* The command "git reset --hard" reverses any changes made to tracked files since the last commit
+* "git log" makes Git list a few of the most recent commits made to the repo
+* "git log -p" makes Git display the differences before and after each commit in addition to recent commits
+
 ## Apr. 29
 ### Web tutorials
 #### [_Pull Request Tutorial - A Visual Guide to Pull Requests_ by Yang Su](https://yangsu.github.io/pull-request-tutorial/)
