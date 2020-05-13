@@ -1,6 +1,13 @@
 # CS410X
 Updates on CS410X project
 
+## May 13
+### Web tutorials
+#### [_pdb - Interactive Debugger_ by pymotw.com](https://pymotw.com/2/pdb/)
+* The command "condition \<breakpoint\_number\> \<condition\>" makes pdb break at the specified point only when the specified condition is met
+* The command "interact" makes pdb start an interactive interpreter; enter Ctrl-D in the interpreter to exit to pdb's regular interface
+* The command "break \<module\_name\>:\<line\_number\>" sets a breakpoint in the specified module
+
 ## May 12
 ### Web tutorials
 #### [_git-reset Documentation_ by git-scm.com](https://git-scm.com/docs/git-reset)
